@@ -4,7 +4,6 @@ import {SafeAreaView, StyleSheet, Text, View, TouchableOpacity} from 'react-nati
 import {GraphQLClient, gql} from 'graphql-request';
 import axios from 'axios';
 import { RequestDocument } from 'graphql-request/dist/types';
-// import admin_secret from '/config.json';
 
 
 const certificate = (user, context, callback) => {
